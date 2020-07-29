@@ -6,11 +6,15 @@ One of the most affected area in pandemic times is Education. Students can take 
 
 So, the key objectives of this POC is to able to digitize the subjective examinations and generate score based on Machine Learning.
 
+### High Level Process Flow:
+
+### In Scope:
+
 ### Architecture Diagram:
 
-### Benefits
+### Benefits:
 
-### Roadmap
+### Roadmap:
 
 ## Getting Started with project setup:
 The below instructions will help in doing a local setup to check the application flow.
@@ -20,7 +24,7 @@ The below instructions will help in doing a local setup to check the application
   - Node JS
   - IBM Cloud access
  
-### Steps to setup Solr in local
+### Steps to setup Solr in local:
 
 ### Steps to run the code:
   Download or clone the code package
