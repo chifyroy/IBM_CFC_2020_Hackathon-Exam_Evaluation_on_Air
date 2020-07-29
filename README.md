@@ -23,7 +23,9 @@ The below instructions will help in doing a local setup to check the application
   - Apache Solr
   - Node JS
   - IBM Cloud access
- 
+
+### Training a model in IBM Watson Knowledge Studio:
+
 ### Steps to setup Solr in local:
 
 ### Steps to run the code:
