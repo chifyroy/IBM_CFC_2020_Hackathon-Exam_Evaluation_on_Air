@@ -1,0 +1,33 @@
+<div class="takeHome colorBlue" [routerLink]="['/start']">&#8592; Back to HOME</div>
+<div class="inner-box clearfix">
+    <div>
+        <p class="">
+            <span class="fontBold">Marks: </span>
+            <span>{{mark}}</span>
+        </p>
+        <p class="">
+            <span class="fontBold">Type: </span>
+            <span>{{type}}</span>
+        </p>
+        <p class="">
+            <span class="fontBold">Score: </span>
+            <span>{{score}}</span>
+        </p>
+        <p>
+            <span class="fontBold">Question: </span>
+            <span>{{question}}</span>
+        </p>
+        <div>
+            <p class="fontBold" *ngIf="type.indexOf('True_or_False') < 0 && type.indexOf('Fill_in_the_blanks') < 0">Configured Answer in IBM Cloud: Keywords</p>
+            <p class="fontBold" *ngIf="type.indexOf('True_or_False') > -1 || type.indexOf('Fill_in_the_blanks') > -1">Expected Answer: </p>
+            <ul>
+                <li *ngFor="let ans of ansArray">{{ans}}</li>
+            </ul>
+        </div>
+        <h3 class="text-success align-center" *ngIf="dataUpdated">Data Updated SUCCESSFULLY!!</h3>
+    </div>
+    <div class="align-center">
+      <button class="btn btn-primary analyseButton" (click)="gotoUpdateData()" *ngIf="!dataUpdated">Submit Data</button>
+      <button class="btn btn-primary" routerLink="/configQuestions">Update Next Question</button>
+    </div>
+</div>

@@ -1,0 +1,44 @@
+<button class="btn btn-success pull-right submit-exam" (click)="gotoSubmitExam('/submitExam', content)">Submit Exam</button>
+<div *ngFor="let ques of questions |  slice: (page-1) * pageSize : (page-1) * pageSize + pageSize; let ind = index"
+  class="inner-box clearfix questions">
+  <div class="fontBold pull-left">Question {{page}}</div>
+  <div class="colorBlue fontBold pull-right font20"> {{ques.Mark}} Marks</div>
+  <div class="ques-wrap colorBlue clearfix">
+    <h4 class="ques">{{ques.Question}}</h4>
+    <div class="ans">
+      <textarea type="text" class="ans-textarea" *ngIf="ques.Type.indexOf('True_or_False') < 0"
+        [attr.disabled]="ques.scoreCalculated" [(ngModel)]="ques.providedAnswer"></textarea>
+      <div *ngIf="ques.Type.indexOf('True_or_False') > -1">
+        <input type="radio" id="optTrue" name="true_false" value="True" [attr.disabled]="ques.scoreCalculated"
+          [(ngModel)]="ques.providedAnswer">
+        <label for="male" class="marLeft10">True</label><br>
+        <input type="radio" id="optFalse" name="true_false" value="False" [attr.disabled]="ques.scoreCalculated"
+          [(ngModel)]="ques.providedAnswer">
+        <label for="female" class="marLeft10">False</label>
+      </div>
+    </div>
+  </div>
+  <div class="align-center">
+    <div class="error-message" *ngIf="showErrorMessage">**Please fill the answer!!</div>
+    <div class="error-message" *ngIf="showLengthErrorMessage">**Not enough number of chanracters in the Answer!!</div>
+    <button class="btn btn-primary analyseButton" *ngIf="ques.Type.indexOf('True_or_False') < 0"
+      (click)="gotoAnalyseScore('/analyseScore', ques.Type, ques.providedAnswer, ques.Question, ques.Mark, ques.Score)">Analyse
+      Score</button>
+    <button class="btn btn-success" [attr.disabled]="ques.scoreCalculated"
+      (click)="gotoSubmitAnswer(ques.Type, page, ques.providedAnswer, ques.Question, ques.Mark, ques.Score)">Submit
+      Answer</button>
+  </div>
+</div>
+<div class="align-center">
+  <ngb-pagination [(page)]="page" [pageSize]="pageSize" [collectionSize]="questions.length"></ngb-pagination>
+</div>
+<ng-template #content let-modal>
+  <div class="modal-header">
+    <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+    <h4>Please submit all the answers before submitting the EXAM!</h4>
+  </div>
+</ng-template>

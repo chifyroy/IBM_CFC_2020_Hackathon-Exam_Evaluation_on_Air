@@ -1,0 +1,27 @@
+<div class="takeHome colorBlue" [routerLink]="['/start']">&#8592; Back to HOME</div>
+<div class="inner-box score fontBold">
+    <div>
+        <p *ngIf="examName">
+            <label class="colorBlue">Subject Name :</label>
+            <span>{{examName}}</span>
+        </p>
+        <h4 class="marBot20 marTop25 colorBlue">Student Details:</h4>
+        <p *ngIf="stName">
+            <label class="colorBlue">Student Name :</label>
+            <span>{{stName}}</span>
+        </p>
+        <p *ngIf="stId">
+            <label class="colorBlue">Student id :</label>
+            <span>{{stId}}</span>
+        </p>
+        <h4 class="marBot20 marTop25 colorBlue">Marks split-up:</h4>
+        <div *ngFor="let mark of scores; let ind = index;">
+            <label class="fontBold colorBlue">Question {{ind + 1}} ({{mark.mark}} marks): </label>
+            <span class="">{{mark.score | number : '1.0-1'}}</span>
+        </div>
+        <p class="align-center">
+            <label class="colorBlue">Total Score :</label>
+            <span class="font35">{{totalScore | number : '1.0-1'}} / {{examScore}}</span>
+        </p>
+    </div>
+</div>

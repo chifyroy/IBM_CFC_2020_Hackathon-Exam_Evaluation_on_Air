@@ -1,0 +1,39 @@
+<div class="takeHome colorBlue" [routerLink]="['/start']">&#8592; Back to HOME</div>
+<div class="inner-box clearfix configExam">
+    <h4>Configure the Exam details</h4>
+    <div class="exam-wrap colorBlue clearfix marTop15">
+        <div class="">
+            <label class="fontBold marRight15">Exam type: </label>
+            <select [(ngModel)]="selectedExam">
+                <option selected>--Select--</option>
+                <option *ngFor="let exam of examType" [ngValue]="exam">{{exam}}</option>
+            </select>
+        </div>
+        <div class="">
+            <label class="fontBold marRight15">Select Subject: </label>
+            <select [(ngModel)]="selectedSubject">
+                <option selected>--Select--</option>
+                <option *ngFor="let sub of subjects" [ngValue]="sub">{{sub}}</option>
+            </select>
+        </div>
+        <div class="">
+            <label class="fontBold marRight15">Select Starndard: </label>
+            <select [(ngModel)]="selectedStd">
+                <option selected>--Select--</option>
+                <option *ngFor="let std of standard" [ngValue]="std">{{std}}</option>
+            </select>
+        </div>
+        <div class="">
+            <label class="fontBold marRight15">Select types JSON file: </label>
+            <select [(ngModel)]="selectedEnt">
+                <option selected>--Select--</option>
+                <option *ngFor="let ent of entType" [ngValue]="ent">{{ent}}</option>
+            </select>
+        </div>
+    </div>
+    <div class="align-center">
+        <button class="btn btn-primary"
+            (click)="gotoConfigureQues('/configQuestions', selectedExam, selectedSubject, selectedStd, selectedEnt)">Prepare
+            Questions</button>
+    </div>
+</div>

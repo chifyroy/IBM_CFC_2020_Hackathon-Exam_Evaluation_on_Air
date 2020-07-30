@@ -1,0 +1,18 @@
+<h2 class="align-center colorBlue">Provide Student Information</h2>
+<div class="inner-box student-info">
+    <p>
+        <label>Subject Name:</label>
+        <span class="colorBlue fontBold">{{examName}}</span>
+    </p>
+    <p>
+        <label>Student Name:</label>
+        <input type="text" [(ngModel)]="studentName"/>
+    </p>
+    <p>
+        <label>Student id:</label>
+        <input type="number" [(ngModel)]="studentId"/>
+    </p>
+    <div class="align-center">
+        <button class="btn btn-primary" (click)="gotoQuestions('/questions', studentName, studentId)" [routerLink]="['/questions']">START EXAM</button>
+    </div>
+</div>

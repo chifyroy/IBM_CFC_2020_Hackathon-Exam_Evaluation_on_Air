@@ -1,0 +1,26 @@
+.pagination {
+    justify-content: center;
+}
+.submit-exam {
+    margin: 20px;
+    margin-right: 10%;
+}
+.ques-wrap {
+    margin: 10px;
+}
+.ques {
+    margin-bottom: 15px;
+}
+/* Modal */
+.modal-header {
+    border-bottom: none;
+}
+.modal-header button {
+    outline: none;
+}
+.modal-dialog {
+    margin: 8rem auto;
+}
+.modal-body h4 {
+    padding: 0px 20px 25px;
+}

@@ -1,0 +1,26 @@
+<div class="takeHome colorBlue" [routerLink]="['/start']">&#8592; Back to HOME</div>
+<div class="inner-box score-analysis">
+    <h3 class="align-center colorBlue">Score Analysis</h3>
+    <div class="pull-left">
+        <h3 class="align-center colorBlue">Expected Answer</h3>
+        <ol class="marTop30">
+            <li *ngFor="let ans of expAnswer">{{ans}}</li>
+        </ol>
+    </div>
+    <div class="pull-right">
+        <h3 class="align-center colorBlue">Answer provided by student</h3>
+        <ol class="marTop30">
+            <div *ngFor="let ans of ansAnalysis | keyvalue">
+                <li *ngIf="ans.value != 0">{{ans.key | slice: 11}}</li>
+                </div>
+        </ol>
+    </div>
+</div>
+<div *ngIf="scoreCalculated" class="clearfix fontBold align-center calcScore">
+    <label class="font20">Score :</label>
+    <span class="colorBlue font35">{{totalScore | number : '1.0-1'}} / {{mark}}</span>
+</div>
+<div class="align-center clearfix">
+    <button class="btn btn-primary marRight15" [routerLink]="['/questions']">Back to Questions</button>
+    <button class="btn btn-primary" (click)="gotoGenerateScore('/generateScore')">Generate Score</button>
+</div>

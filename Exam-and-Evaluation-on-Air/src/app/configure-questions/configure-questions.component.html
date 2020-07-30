@@ -1,0 +1,41 @@
+<div class="takeHome colorBlue" [routerLink]="['/start']">&#8592; Back to HOME</div>
+<div class="inner-box clearfix configQues">
+    <h4>Configure Question & Answers Key</h4>
+    <div class="ques-wrap colorBlue clearfix marTop15">
+        <div class="pull-left quesMarks">
+            <label class="fontBold marRight15">Marks: </label>
+            <select [(ngModel)]="selectedMark">
+                <option selected>--Select--</option>
+                <option *ngFor="let mark of marks" [ngValue]="mark.mark">{{mark.markText}}</option>
+            </select>
+        </div>
+        <div class="pull-left">
+            <label class="fontBold marRight15">Type: </label>
+            <select [(ngModel)]="type">
+                <option selected>--Select--</option>
+                <option>True_or_False</option>
+                <option>Fill_in_the_blanks</option>
+                <option *ngFor="let type of entities" [ngValue]="type.label">{{type.label}}</option>
+            </select>
+        </div>
+        <div class="ques clearfix">
+            <label class="fontBold">Question: </label>
+            <textarea type="text" class="ques-textarea" [(ngModel)]="quesText"></textarea>
+        </div>
+        <div class="ans">
+            <label class="fontBold">Answer: </label>
+            <textarea type="text" *ngIf="type != 'True_or_False'" class="ans-textarea" [(ngModel)]="ansText"></textarea>
+            <div *ngIf="type == 'True_or_False'">
+                <input type="radio" id="optTrue" name="true_false" value="True" [(ngModel)]="ansText">
+                <label for="male" class="marLeft10">True</label><br>
+                <input type="radio" id="optFalse" name="true_false" value="False" [(ngModel)]="ansText">
+                <label for="female" class="marLeft10">False</label>
+            </div>
+        </div>
+    </div>
+    <div class="align-center">
+        <div class="error-message" *ngIf="showErrorMessage">**Please fill all the fields!!</div>
+        <button class="btn btn-primary"
+            (click)="gotoAnalyseQues('/analyseQues', selectedMark, type, quesText, ansText)">Analyse</button>
+    </div>
+</div>
