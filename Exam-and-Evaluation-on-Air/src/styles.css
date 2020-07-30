@@ -1,0 +1,168 @@
+/* You can add global styles to this file, and also import other style files */
+.fontBold {
+    font-weight: bold;
+}
+.font20 {
+    font-size: 20px;
+}
+.font35 {
+    font-size: 35px;
+}
+.align-center {
+    text-align: center;
+}
+.inner-box {
+    box-shadow: inset 0 -0.4em 3em rgba(0,0,0,0.3), 0 0 0 0.3px rgb(255,255,255), 0.3em 0.3em 0.8em rgba(0,0,0,0.4);
+    padding: 30px;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    float: left;
+    margin-left: 10%;
+}
+.inner-box.questions {
+    float: none;
+}
+.colorBlue {
+    color: #1f5377;
+}
+.btn {
+    font-size: 20px;
+    padding: 7px 40px;
+    margin-top: 25px;
+}
+.header {
+    margin-top: 30px;
+}
+.takeHome {
+    margin-left: 10%;
+    float: left;
+    outline: none;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+/*.student-info label {
+    width: 15%;
+    font-weight: bold;
+}*/
+/*.pagination {
+    justify-content: center;
+}
+.submit-exam {
+    margin: 20px;
+    margin-right: 10%;
+}
+.ques-wrap {
+    margin: 10px;
+}
+.ques {
+    margin-bottom: 15px;
+}*/
+textarea {
+    padding: 10px;
+}
+textarea:disabled {
+    background-color: lightgrey;
+}
+.ans-textarea {
+    width: 100%;
+    height: 200px;
+}
+.ques-textarea {
+    width: 100%;
+}
+/*.score-analysis .pull-left,
+.score-analysis .pull-right {
+    float: left;
+    width: 42%;
+    margin: 45px;
+}
+.score-analysis .pull-left > div,
+.score-analysis .pull-right > div {
+    padding: 20px;
+}
+.score-analysis .pull-left > div {
+    border-right: 1px solid;
+}
+.score-analysis .pull-right {
+    margin-left: 0px;
+}
+.score-analysis.inner-box {
+    float: left;
+    margin-left: 10%;
+}
+.score-analysis li {
+    margin-bottom: 8px;
+}*/
+.pull-left {
+    float: left;
+}
+.pull-right {
+    float: right;
+}
+.clearfix {
+    clear: both;
+}
+/*.score > div {
+    margin: 0px 0px 0px 40%;
+}*/
+/*.score p {
+    margin-bottom: 5px;
+}
+.score label {
+    width: 20%;
+}*/
+/*.calcScore label {
+    margin-right: 30px;
+}*/
+.analyseButton {
+    margin-right: 20px;
+}
+.marTop30 {
+    margin-top: 30px;
+}
+.marTop15 {
+    margin-top: 15px;
+}
+.marTop25 {
+    margin-top: 25px;
+}
+.marBot15 {
+    margin-bottom: 15px;
+}
+.marBot20 {
+    margin-bottom: 20px;
+}
+.marRight15 {
+    margin-right: 15px;
+}
+.marLeft10 {
+    margin-left: 10px;
+}
+/*.configQues .ques {
+    padding-top: 20px;
+}
+.quesMarks {
+    width: 25%;
+}*/
+/*.configExam label {
+    margin: 20px 0px;
+    width: 20%;
+}*/
+/*.modal-header {
+    border-bottom: none;
+}
+.modal-header button {
+    outline: none;
+}
+.modal-dialog {
+    margin: 8rem auto;
+}
+.modal-body h4 {
+    padding: 0px 20px 25px;
+}*/
+.error-message {
+    color: red;
+}

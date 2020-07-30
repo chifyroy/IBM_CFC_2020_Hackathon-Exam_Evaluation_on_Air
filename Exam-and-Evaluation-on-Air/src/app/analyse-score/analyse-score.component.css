@@ -1,0 +1,26 @@
+.score-analysis .pull-left,
+.score-analysis .pull-right {
+    float: left;
+    width: 42%;
+    margin: 45px;
+}
+.score-analysis .pull-left > div,
+.score-analysis .pull-right > div {
+    padding: 20px;
+}
+.score-analysis .pull-left > div {
+    border-right: 1px solid;
+}
+.score-analysis .pull-right {
+    margin-left: 0px;
+}
+.score-analysis.inner-box {
+    float: left;
+    margin-left: 10%;
+}
+.score-analysis li {
+    margin-bottom: 8px;
+}
+.calcScore label {
+    margin-right: 30px;
+}

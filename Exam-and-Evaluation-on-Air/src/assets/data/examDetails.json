@@ -1,0 +1,17 @@
+{
+    "examType":[
+        "Model", "Quarterly", "Half-yearly", "Final"
+    ],
+    "subjectNames":[
+        "Science (EVS)", "Maths", "Tamil", "English", "Social Science"
+    ],
+    "standard":[
+        "6th Std", "7th Std", "8th Std", "9th Std"
+    ],
+    "entType":[
+        "6th_Science_MidTerm.json",
+        "7th_Science_MidTerm.json",
+        "8th_Science_MidTerm.json",
+        "9th_Science_MidTerm.json"
+    ]
+}
