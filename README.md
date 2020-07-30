@@ -25,15 +25,16 @@ The below instructions will help in doing a local setup to check the application
   - IBM Cloud access
 
 ### Training a model in IBM Watson Knowledge Studio:
-
+### Steps for Training and deploying models in IBM
+[Refer](/Source_code/IBM_Docs/IBM training Model.docx) this link for the documentation
 ### Steps to setup Solr in local:
 1. Download Solr-8.3.1.zip from official [Solr repository](https://archive.apache.org/dist/lucene/solr/8.3.1/) and unzip the package
 2. Start Solr instance using command line from '/Solr_installation/bin' directory
     >solr start -p 8983
 3. Create New collection named as 'Exam_on_Air' using command line from '/Solr_installation/bin' directory
    >solr create -c Exam_on_Air
-4. Inside "\Solr_Installation\server\solr\Exam_on_Air\conf folder" replace the "manged schema" file with [managed-schema](/Solr_Conf/managed-schema)
-5. To Enable Cors for the application to access Solr, replace web.xml from path " \Solr_Installation\server\solr-webapp\webapp\WEB-INF" with [web.xml](/Solr_Conf/web.xml)
+4. Inside "\Solr_Installation\server\solr\Exam_on_Air\conf folder" replace the "manged schema" file with [managed-schema](/Source_code/Solr_Conf/managed-schema)
+5. To Enable Cors for the application to access Solr, replace web.xml from path " \Solr_Installation\server\solr-webapp\webapp\WEB-INF" with [web.xml](/Source_code/Solr_Conf/web.xml)
 6. Restart Solr from '/Solr_installation/bin' directory
     >solr restart -p 8983
 ### Steps to run the code:
