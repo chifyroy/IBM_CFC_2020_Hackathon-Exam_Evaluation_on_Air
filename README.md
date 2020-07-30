@@ -26,7 +26,7 @@ The below instructions will help in doing a local setup to check the application
 
 ### Training a model in IBM Watson Knowledge Studio:
 ### Steps for Training and deploying models in IBM
-   Please [Refer](/Source_code/IBM_Docs/IBM%20training%20Model.docx) this link for the documentation
+   Please [Refer](/Source_code/IBM_Docs) this link for the documentation
 ### Steps to setup Solr in local:
 1. Download Solr-8.3.1.zip from official [Solr repository](https://archive.apache.org/dist/lucene/solr/8.3.1/) and unzip the package
 2. Start Solr instance using command line from '/Solr_installation/bin' directory
