@@ -7,7 +7,7 @@ One of the most affected area in pandemic times is Education. Students can take 
 So, the key objectives of this POC is to able to digitize the subjective examinations and generate score based on Machine Learning.
 
 ### High Level Process Flow:
-
+![Image of Process Flow Diagram](/Source_code/documents/High_Level_Process_Flow.PNG)
 ### In Scope:
 
 ### Architecture Diagram:
