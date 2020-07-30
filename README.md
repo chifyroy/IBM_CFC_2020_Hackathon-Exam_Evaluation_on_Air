@@ -11,7 +11,7 @@ So, the key objectives of this POC is to able to digitize the subjective examina
 ### In Scope:
 
 ### Architecture Diagram:
-
+![Image of Architecture Diagram](https://github.com/Chify/IBM_CFC_2020_Hackathon-Exam_Evaluation_on_Air/blob/master/documents/Architecture_Diagram.PNG)
 ### Benefits:
 
 ### Roadmap:
