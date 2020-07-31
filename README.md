@@ -38,9 +38,17 @@ The below instructions will help in doing a local setup to check the application
 6. Restart Solr from '/Solr_installation/bin' directory
     >solr restart -p 8983
 ### Steps to run the code:
-  Download or clone the code package
-  Go into the project folder ‘Exam-and-Evaluation-on-Air’
-  Open command prompt and execute the following commands
+  1. Download or clone the code package
+  2. Download the entity details created in IBM Cloud ([Refer](/Source_code/IBM_Docs))
+  3. Update the downloaded files content in this file '/Source_code/UI/src/assets/data/6th_Science_MidTerm.json'
+  4. We will also require the below details from the worspace created in IBM ([Refer](/Source_code/IBM_Docs))
+      - Api key
+      - URL
+      - Model Id
+      - Version
+  5. Update the above details in the JSON file available in '/Source_code/UI/src/assets/data/dbDetails.json'
+  6. After performing the above steps, Open command prompt and go into the project folder ‘/Source_code/UI’ and execute the following commands
+  
   ```
     - npm install (this will install all the required node modules)
     - node server
