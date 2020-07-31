@@ -22,21 +22,20 @@ Institutions can now conduct exams without the hassles of infrastructure availab
 #### Quick, unbiased results 
 Exams and Evaluations on- Air leverages modern digital technology to constantly train and update itself with response components to a question. This reduces intervention from educators and ensures that a student is correctly graded and is not subjected to misinterpretations of response and incorrect grading. 
 
-#### Results
-  - Education institutions and exam boards benefit from 80% reduction in cost, from setting up , conducting and evaluating subjective exams
-  - Opens up new channels for writing exams - handwritten exams, voice-based answers for blind students as well as online written exams 
-  - Unbiased, hassle free evaluations 
-
 ### High Level Process Flow:
 ![Image of Process Flow Diagram](https://github.com/Chify/IBM_CFC_2020_Hackathon-Exam_Evaluation_on_Air/blob/master/documents/High_Level_Process_Flow.PNG)
-
-### In Scope:
 
 ### Architecture Diagram:
 ![Image of Architecture Diagram](https://github.com/Chify/IBM_CFC_2020_Hackathon-Exam_Evaluation_on_Air/blob/master/documents/Architecture_Diagram.PNG)
 
-### Benefits:
+### Demo Video
+[![Exam-Evaluation-on-Air](https://www.youtube.com/watch?v=zFKVmzvFDrg&feature=youtu.be)
 
+### Benefits:
+  - Education institutions and exam boards benefit from 80% reduction in cost, from setting up , conducting and evaluating subjective exams
+  - Opens up new channels for writing exams - handwritten exams, voice-based answers for blind students as well as online written exams 
+  - Unbiased, hassle free evaluations 
+  
 ### Roadmap:
 ![Roadmap](https://github.com/Chify/IBM_CFC_2020_Hackathon-Exam_Evaluation_on_Air/blob/master/documents/Road_map.PNG)
 
@@ -81,4 +80,4 @@ The below instructions will help in doing a local setup to check the application
  Finally, access ‘localhost:3000’ in the browser
 
 #### Conclusion
-Examination conduction, management and evaluation can be effectively done during Covid-19 pandemic with the help of ‘Exams & Evaluations On-Air’.
+Examination conduction, management and evaluation can be effectively done during Covid-19 pandemic with the help of ‘Exams & Evaluations On-Air’. This solution is more generic and does not have to be limited to the pandemic situations. It can be put to use at all times. 
