@@ -46,8 +46,8 @@ The below instructions will help in doing a local setup to check the application
       - URL
       - Model Id
       - Version
-  5. Update the above details in the JSON file available in '/Source_code/UI/src/assets/data/dbDetails.json'
-  6. After performing the above steps, Open command prompt and go into the project folder ‘/Source_code/UI’ and execute the following commands
+  5. Update the above details in the JSON file available in '\Source_code\UI\src\assets\data\dbDetails.json' (The details already present in this file are just dummy data)
+  6. After performing the above steps, Open command prompt and go into the project folder ‘\Source_code\UI’ and execute the following commands
   
   ```
     - npm install (this will install all the required node modules)
