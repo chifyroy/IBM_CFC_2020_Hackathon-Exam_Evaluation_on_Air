@@ -30,7 +30,6 @@ Exams and Evaluations on- Air leverages modern digital technology to constantly 
 
 ### Demo Video
 [![Exam-Evaluation-on-Air](https://github.com/Chify/IBM_CFC_2020_Hackathon-Exam_Evaluation_on_Air/blob/master/documents/Demo%20video.PNG)](https://www.youtube.com/watch?v=zFKVmzvFDrg&feature=youtu.be)
-[Demo video](https://www.youtube.com/watch?v=zFKVmzvFDrg&feature=youtu.be)
 
 ### Benefits:
   - Education institutions and exam boards benefit from 80% reduction in cost, from setting up , conducting and evaluating subjective exams
