@@ -45,7 +45,7 @@ Exams and Evaluations on- Air leverages modern digital technology to constantly 
 The below instructions will help in doing a local setup to check the application flow.
 
 ### Softwares required:
-  - IBM Cloud Services - IBM Watson Knowledge Studion and NLU Services (for building question bank and answer keys)
+  - IBM Cloud Services - IBM Watson Knowledge Studio and NLU Services (for building question bank and answer keys)
   - Node JS (UI application with Two personas Teacher and Student)
   - Apache Solr (repository to store the individual question paper set and to generate scores)
 
@@ -57,7 +57,7 @@ The below instructions will help in doing a local setup to check the application
     >solr start -p 8983
 3. Create New collection named as 'Exam_on_Air' using command line from '/Solr_installation/bin' directory
    >solr create -c Exam_on_Air
-4. Inside "\Solr_Installation\server\solr\Exam_on_Air\conf folder" replace the "manged schema" file with [managed-schema](/Source_code/Solr_Conf/managed-schema)
+4. Inside "\Solr_Installation\server\solr\Exam_on_Air\conf folder" replace the "managed-schema" file with [managed-schema](/Source_code/Solr_Conf/managed-schema)
 5. To Enable Cors for the application to access Solr, replace web.xml from path " \Solr_Installation\server\solr-webapp\webapp\WEB-INF" with [web.xml](/Source_code/Solr_Conf/web.xml)
 6. Restart Solr from '/Solr_installation/bin' directory
     >solr restart -p 8983
@@ -65,7 +65,7 @@ The below instructions will help in doing a local setup to check the application
   1. Download or clone the code package
   2. Download the entity details created in IBM Cloud ([Refer file Download Entities from IBM Knowledge Studio.docx](/Source_code/IBM_Docs))
   3. Update the downloaded files content in this file '/Source_code/UI/src/assets/data/6th_Science_MidTerm.json'
-  4. We will also require the below details from the worspace created in IBM ([Refer file IBM training Model.docx](/Source_code/IBM_Docs))
+  4. We will also require the below details from the workspace created in IBM ([Refer file IBM training Model.docx](/Source_code/IBM_Docs))
       - Api key
       - URL
       - Model Id
