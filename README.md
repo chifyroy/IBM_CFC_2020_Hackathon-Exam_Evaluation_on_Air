@@ -34,12 +34,12 @@ Examination conduction, management and evaluation can be effectively done during
 So, the key objectives of this POC is to able to digitize the subjective examinations and generate score based on Machine Learning.
 
 ### High Level Process Flow:
-![Image of Process Flow Diagram](https://github.com/Chify/IBM_CFC_2020_Hackathon-Exam_Evaluation_on_Air/blob/master/documents/High_Level_Process_Flow.PNG1)
+![Image of Process Flow Diagram](https://github.com/Chify/IBM_CFC_2020_Hackathon-Exam_Evaluation_on_Air/blob/master/documents/High_Level_Process_Flow.PNG)
 
 ### In Scope:
 
 ### Architecture Diagram:
-![Image of Architecture Diagram](https://github.com/Chify/IBM_CFC_2020_Hackathon-Exam_Evaluation_on_Air/blob/master/documents/Architecture_Diagram.PNG1)
+![Image of Architecture Diagram](https://github.com/Chify/IBM_CFC_2020_Hackathon-Exam_Evaluation_on_Air/blob/master/documents/Architecture_Diagram.PNG)
 
 ### Benefits:
 
