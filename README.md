@@ -10,7 +10,7 @@ Educational institutes can conduct subjective exams through new mediums and educ
 #### The idea
 Innovation approaches to grading and evaluation is important as educators and students both discover new ways of learning beyond the classrooms. Providing a set of open source tools, backed by IBM Cloud and Watson Services, will enable educators to easily assess students understanding of concepts, without having to manually go through each and every student exam response.
 
-### Exams & Evaluations On-Air
+## Exams & Evaluations On-Air
 With COVID, the traditional examination process where students gather at an examination center to write exams is now a thing of the fading past. But, remotely evaluating students understanding of the concept and critical thinking capabilities still remains a challenge for institutions. Educational institutes need to adopt new ways of conducting and evaluating subjective based exams, both at school and university levels to bridge this gap.  
 
 #### Way forward for exams 
@@ -78,5 +78,5 @@ The below instructions will help in doing a local setup to check the application
   
  Finally, access ‘localhost:3000’ in the browser
 
-### Conclusion
+## Conclusion
 Examination conduction, management and evaluation can be effectively done during Covid-19 pandemic with the help of ‘Exams & Evaluations On-Air’. This solution is more generic and does not have to be limited to the pandemic situations. It can be put to use at all times. 
