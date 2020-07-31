@@ -84,3 +84,9 @@ The below instructions will help in doing a local setup to check the application
 
 ## Conclusion
 Examination conduction, management and evaluation can be effectively done during Covid-19 pandemic with the help of ‘Exams & Evaluations On-Air’. This solution is more generic and does not have to be limited to the pandemic situations. It can be put to use at all times. 
+
+## Authors
+  - Shivarun.K
+  - Chifany Roidan
+  - IndhuPriya Sudalaikani
+  - Arunkumar Boorasamy
