@@ -44,12 +44,11 @@ Exams and Evaluations on- Air leverages modern digital technology to constantly 
 The below instructions will help in doing a local setup to check the application flow.
 
 ### Softwares required:
-  - Apache Solr
-  - Node JS
-  - IBM Cloud access
+  - IBM Cloud Services - IBM Watson Knowledge Studion and NLU Services (for building question bank and answer keys)
+  - Node JS (UI application with Two personas Teacher and Student)
+  - Apache Solr (repository to store the individual question paper set and to generate scores)
 
-### Training a model in IBM Watson Knowledge Studio:
-### Steps for Training and deploying models in IBM
+### Steps for Training and deploying models in IBM:
    Please [Refer](/Source_code/IBM_Docs) this link for the documentation
 ### Steps to setup Solr in local:
 1. Download Solr-8.3.1.zip from official [Solr repository](https://archive.apache.org/dist/lucene/solr/8.3.1/) and unzip the package
