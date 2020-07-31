@@ -44,6 +44,7 @@ So, the key objectives of this POC is to able to digitize the subjective examina
 ### Benefits:
 
 ### Roadmap:
+![Roadmap](https://github.com/Chify/IBM_CFC_2020_Hackathon-Exam_Evaluation_on_Air/blob/master/documents/Road_map.PNG)
 
 ## Getting Started with project setup:
 The below instructions will help in doing a local setup to check the application flow.
