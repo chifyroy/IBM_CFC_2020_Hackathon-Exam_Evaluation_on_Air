@@ -69,9 +69,9 @@ The below instructions will help in doing a local setup to check the application
     >solr restart -p 8983
 ### Steps to run the code:
   1. Download or clone the code package
-  2. Download the entity details created in IBM Cloud ([Refer](/Source_code/IBM_Docs))
+  2. Download the entity details created in IBM Cloud ([Refer file Download Entities from IBM Knowledge Studio.docx](/Source_code/IBM_Docs))
   3. Update the downloaded files content in this file '/Source_code/UI/src/assets/data/6th_Science_MidTerm.json'
-  4. We will also require the below details from the worspace created in IBM ([Refer](/Source_code/IBM_Docs))
+  4. We will also require the below details from the worspace created in IBM ([Refer file IBM training Model.docx](/Source_code/IBM_Docs))
       - Api key
       - URL
       - Model Id
