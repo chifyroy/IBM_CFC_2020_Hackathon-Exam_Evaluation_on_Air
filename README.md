@@ -1,8 +1,8 @@
 # IBM_CFC_2020_Hackathon-Exam_Evaluation_on_Air
 
-### Short Description:
-&nbsp;&nbsp;#### What's the problem?
-&nbsp;&nbsp;Education has been deeply disrupted with the onset and spread of COVID-19. And while online classes and learning apps have come in, evaluating subjective exams, which are more difficult and time-consuming to score, still remains an unanswered question. Finding an efficient, long lasting solution to easily conduct and grade subjective exams, with minimum efforts will mark a new chapter in education.
+## Short Description:
+#### What's the problem?
+Education has been deeply disrupted with the onset and spread of COVID-19. And while online classes and learning apps have come in, evaluating subjective exams, which are more difficult and time-consuming to score, still remains an unanswered question. Finding an efficient, long lasting solution to easily conduct and grade subjective exams, with minimum efforts will mark a new chapter in education.
 
 #### How can technology help?
 Educational institutes can conduct subjective exams through new mediums and educators can spend minimum effort in evaluating student answers. Helping students develop critical thinking capabilities and grading them through an unbiased approach is important as we shape the future of education.
@@ -22,24 +22,24 @@ Institutions can now conduct exams without the hassles of infrastructure availab
 #### Quick, unbiased results 
 Exams and Evaluations on- Air leverages modern digital technology to constantly train and update itself with response components to a question. This reduces intervention from educators and ensures that a student is correctly graded and is not subjected to misinterpretations of response and incorrect grading. 
 
-### High Level Process Flow:
+## High Level Process Flow:
 ![Image of Process Flow Diagram](https://github.com/Chify/IBM_CFC_2020_Hackathon-Exam_Evaluation_on_Air/blob/master/documents/High_Level_Process_Flow.PNG)
 
-### Architecture Diagram:
+## Architecture Diagram:
 ![Image of Architecture Diagram](https://github.com/Chify/IBM_CFC_2020_Hackathon-Exam_Evaluation_on_Air/blob/master/documents/Architecture_Diagram.PNG)
 
-### Demo Video
+## Demo Video
 [![Exam-Evaluation-on-Air](https://github.com/Chify/IBM_CFC_2020_Hackathon-Exam_Evaluation_on_Air/blob/master/documents/Demo%20video.PNG)](https://youtu.be/9Mi-By0NpUg)
 
-### Benefits:
+## Benefits:
   - Education institutions and exam boards benefit from 80% reduction in cost, from setting up , conducting and evaluating subjective exams
   - Opens up new channels for writing exams - handwritten exams, voice-based answers for blind students as well as online written exams 
   - Unbiased, hassle free evaluations 
   
-### Roadmap:
+## Roadmap:
 ![Roadmap](https://github.com/Chify/IBM_CFC_2020_Hackathon-Exam_Evaluation_on_Air/blob/master/documents/Road_map.PNG)
 
-## Getting Started with project setup:
+# Getting Started with project setup:
 The below instructions will help in doing a local setup to check the application flow.
 
 ### Softwares required:
@@ -59,7 +59,7 @@ The below instructions will help in doing a local setup to check the application
 5. To Enable Cors for the application to access Solr, replace web.xml from path " \Solr_Installation\server\solr-webapp\webapp\WEB-INF" with [web.xml](/Source_code/Solr_Conf/web.xml)
 6. Restart Solr from '/Solr_installation/bin' directory
     >solr restart -p 8983
-### Steps to run the code:
+## Steps to run the code:
   1. Download or clone the code package
   2. Download the entity details created in IBM Cloud ([Refer file Download Entities from IBM Knowledge Studio.docx](/Source_code/IBM_Docs))
   3. Update the downloaded files content in this file '/Source_code/UI/src/assets/data/6th_Science_MidTerm.json'
@@ -78,5 +78,5 @@ The below instructions will help in doing a local setup to check the application
   
  Finally, access ‘localhost:3000’ in the browser
 
-#### Conclusion
+### Conclusion
 Examination conduction, management and evaluation can be effectively done during Covid-19 pandemic with the help of ‘Exams & Evaluations On-Air’. This solution is more generic and does not have to be limited to the pandemic situations. It can be put to use at all times. 
