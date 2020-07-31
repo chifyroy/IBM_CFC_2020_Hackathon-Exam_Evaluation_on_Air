@@ -2,7 +2,6 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const path = require('path');
 
-const api = require('./server/routes/api');
 const analyseAnswer = require('./server/routes/analyseAnswer');
 const port = 3000;
 const app = express();
