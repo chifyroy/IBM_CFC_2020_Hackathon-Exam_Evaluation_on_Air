@@ -43,23 +43,9 @@
     font-weight: bold;
     cursor: pointer;
 }
-/*.student-info label {
-    width: 15%;
-    font-weight: bold;
-}*/
-/*.pagination {
+.pagination {
     justify-content: center;
 }
-.submit-exam {
-    margin: 20px;
-    margin-right: 10%;
-}
-.ques-wrap {
-    margin: 10px;
-}
-.ques {
-    margin-bottom: 15px;
-}*/
 textarea {
     padding: 10px;
 }
@@ -73,29 +59,6 @@ textarea:disabled {
 .ques-textarea {
     width: 100%;
 }
-/*.score-analysis .pull-left,
-.score-analysis .pull-right {
-    float: left;
-    width: 42%;
-    margin: 45px;
-}
-.score-analysis .pull-left > div,
-.score-analysis .pull-right > div {
-    padding: 20px;
-}
-.score-analysis .pull-left > div {
-    border-right: 1px solid;
-}
-.score-analysis .pull-right {
-    margin-left: 0px;
-}
-.score-analysis.inner-box {
-    float: left;
-    margin-left: 10%;
-}
-.score-analysis li {
-    margin-bottom: 8px;
-}*/
 .pull-left {
     float: left;
 }
@@ -105,18 +68,12 @@ textarea:disabled {
 .clearfix {
     clear: both;
 }
-/*.score > div {
-    margin: 0px 0px 0px 40%;
-}*/
-/*.score p {
+.score p {
     margin-bottom: 5px;
 }
 .score label {
     width: 20%;
-}*/
-/*.calcScore label {
-    margin-right: 30px;
-}*/
+}
 .analyseButton {
     margin-right: 20px;
 }
@@ -141,28 +98,6 @@ textarea:disabled {
 .marLeft10 {
     margin-left: 10px;
 }
-/*.configQues .ques {
-    padding-top: 20px;
-}
-.quesMarks {
-    width: 25%;
-}*/
-/*.configExam label {
-    margin: 20px 0px;
-    width: 20%;
-}*/
-/*.modal-header {
-    border-bottom: none;
-}
-.modal-header button {
-    outline: none;
-}
-.modal-dialog {
-    margin: 8rem auto;
-}
-.modal-body h4 {
-    padding: 0px 20px 25px;
-}*/
 .error-message {
     color: red;
 }
