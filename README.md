@@ -9,6 +9,7 @@ Educational institutes can conduct subjective exams through new mediums and educ
 
 #### The idea
 Innovation approaches to grading and evaluation is important as educators and students both discover new ways of learning beyond the classrooms. Providing a set of open source tools, backed by IBM Cloud and Watson Services, will enable educators to easily assess students understanding of concepts, without having to manually go through each and every student exam response.
+![Image of Exam_on_Air_1](https://github.com/Chify/IBM_CFC_2020_Hackathon-Exam_Evaluation_on_Air/blob/master/documents/Exam_on_air_1.PNG)
 
 ## Exams & Evaluations On-Air
 With COVID, the traditional examination process where students gather at an examination center to write exams is now a thing of the fading past. But, remotely evaluating students understanding of the concept and critical thinking capabilities still remains a challenge for institutions. Educational institutes need to adopt new ways of conducting and evaluating subjective based exams, both at school and university levels to bridge this gap.  
@@ -21,6 +22,7 @@ Institutions can now conduct exams without the hassles of infrastructure availab
 
 #### Quick, unbiased results 
 Exams and Evaluations on- Air leverages modern digital technology to constantly train and update itself with response components to a question. This reduces intervention from educators and ensures that a student is correctly graded and is not subjected to misinterpretations of response and incorrect grading. 
+![Image of Exam_on_Air_2](https://github.com/Chify/IBM_CFC_2020_Hackathon-Exam_Evaluation_on_Air/blob/master/documents/Exam_on_air_2.PNG)
 
 ## High Level Process Flow:
 ![Image of Process Flow Diagram](https://github.com/Chify/IBM_CFC_2020_Hackathon-Exam_Evaluation_on_Air/blob/master/documents/High_Level_Process_Flow.PNG)
